@@ -1,0 +1,16 @@
+module.exports = {
+	title: 'VuePress 시작!',
+	description: 'Hello World',
+	host: '192.168.0.2',
+	port: 8080,
+	themeConfig: {
+		nav: [
+			{ text: 'Home', link: '/' },
+			{ text: 'Postgres', link: '/postgres/'},
+			{ text: 'About', link: '/about/' }
+		],
+	},
+	markdown: {
+		lineNumbers: false
+	}
+}
